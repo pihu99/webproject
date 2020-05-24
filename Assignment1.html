@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Bootstrap 4 Fixed Layout Example</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<style>
+*{
+  box-sizing: border-box;
+}
+header {
+ 
+  padding: 15px;
+  font-size: 35px;
+  color: white;
+  width:100%;
+}
+.logo{
+  text-align: left;
+  width: 70%;
+  padding-left: 31px;
+  padding-top: 10px;
+}
+.button{
+    text-align: end;
+        font-size: 23px;
+        width:98%;
+
+}
+nav{
+    float: left;
+    width: 18%;
+    height: 400px;
+    background-color: gray;
+
+
+text-align: end;}
+article{
+  height: 400px;
+  float: left;
+  width: 82%;
+  background-color: white;
+  padding: 50px;
+}
+footer{
+  background-color: #666;
+  padding: 35px;
+  padding-top: 50px;
+  font-size: 20px;
+  color: white;
+  text-align: S;
+
+}
+.image{
+  height:7%;
+  width: 7%;
+
+}
+.login{
+  text-align: center;
+    font-size: 30px;
+}
+.button{
+  text-align: center;
+    width: 100%;
+}
+.forgotpassword{
+  text-align: end;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+
+input[type=submit] {
+  background-color: rgb(58, 88, 153);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #4762ad;
+}
+
+.container {
+  border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 5px;
+    width: 42%;
+    border: 1px solid gray;
+    padding: 14px 30px;
+}
+</style>
+</head>
+
+<body>
+  <header class="navbar navbar-expand-md navbar-dark bg-dark mb-3">
+<div class="logo"> <img class="image" src="C:/Users/vevov/OneDrive/Documents/twitter.png"></div>
+<div class="button">HOME &nbsp;&nbsp;
+ABOUT&nbsp;&nbsp;
+CONTACT
+</div>
+  </header>
+  <section>
+    <nav>  Login  </nav>
+    <article>  
+
+      <div class="container">
+        <div class="login">Login</div>
+        <form action="">
+      
+          <input type="text" id="fname" name="firstname" placeholder="Username">
+      
+          <input type="text" id="lname" name="lastname" placeholder="Password">
+         
+         <center> <input class="button" type="submit" value="Login"></center>
+         <br/>
+         <div class="row">
+         <div class="checkbox col-md-6">
+          <label><input type="checkbox"> Remember me</label>
+        </div>
+        <div class="forgotpassword col-md-6">
+          <label><a href="">Forgot Password ?</a></label>
+        </div>
+      </div>
+        </form>
+      </div>
+      
+
+      <br/>
+     
+    
+    </article>
+  </section>
+
+  <footer>   copyright    </footer>
+</body>
+
+</html>
